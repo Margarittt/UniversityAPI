@@ -32,7 +32,7 @@ namespace UStudentAPI.Controllers
 
             if (student == null)
             {
-                return NotFound("The Employee record couldn't be found.");
+                return NotFound("The Student record couldn't be found.");
             }
 
             return Ok(student);
@@ -60,7 +60,7 @@ namespace UStudentAPI.Controllers
         {
             if (student == null)
             {
-                return BadRequest("Employee is null.");
+                return BadRequest("Student is null.");
             }
 
             Student studentToUpdate = _dataRepository.Get(id);
