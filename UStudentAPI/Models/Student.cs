@@ -19,4 +19,17 @@ namespace UStudentAPI.Models
 
         public string Country { get; set; }
     }
+    
+    /*
+    
+    
+    public class ResponseResult<T>
+    {
+        public bool Success { get; set; }
+        public T Data { get; set; }
+        public List<Message<MessageType, string>> Messages { get; set; }
+    }
+    
+    
+    */
 }
